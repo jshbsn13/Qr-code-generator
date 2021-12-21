@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/productNumImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="product code"
+        android:paddingTop="20dp"
+        android:paddingBottom="60dp"></ImageView>
+
+    <TextView
+        android:id="@+id/productNumTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/product_num" />
+
+    <EditText
+        android:id="@+id/productNumEdittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/product_num_hint"
+        android:inputType="textPersonName"
+        />
+
+    <ImageView
+        android:id="@+id/productLotNumImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="product code"
+        android:paddingTop="30dp"
+        android:paddingBottom="60dp"></ImageView>
+
+    <TextView
+        android:id="@+id/productLotNumTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/product_lotnum" />
+
+    <EditText
+        android:id="@+id/productLotNumEdittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/lotnum_hint"
+        android:inputType="textPersonName"
+        />
+
+    <ImageView
+        android:id="@+id/productAmountImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="60dp"></ImageView>
+
+    <TextView
+        android:id="@+id/productAmountTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/product_amount"
+         />
+
+    <EditText
+        android:id="@+id/productAmountEdittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/product_amount_hint"
+        android:inputType="number"
+        />
+
+    <ImageView
+        android:id="@+id/productLocationImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"></ImageView>
+
+    <TextView
+        android:id="@+id/productLocationTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/product_location"
+         />
+
+    <EditText
+        android:id="@+id/productLocationEdittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/product_location_hint"
+        android:inputType="textPersonName" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/generateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        android:layout_weight="1"
+        android:text="Generate" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Clear"
+        />
+    </LinearLayout>
+
+</LinearLayout>

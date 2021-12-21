@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/productNumImg2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="product code"></ImageView>
+
+    <TextView
+        android:id="@+id/productNumTxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/product_num" />
+
+    <EditText
+        android:id="@+id/productNumEdittxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/product_num_hint"
+        android:inputType="textPersonName"
+        android:nextFocusDown="@id/productAmountEdittxt" />
+
+    <ImageView
+        android:id="@+id/productLotNumImg2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="product code"></ImageView>
+
+    <TextView
+        android:id="@+id/productLotNumTxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="@string/product_lotnum" />
+
+    <EditText
+        android:id="@+id/productLotNumEdittxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/lotnum_hint"
+        android:inputType="textPersonName"
+        android:nextFocusDown="@id/productAmountEdittxt" />
+
+    <ImageView
+        android:id="@+id/productAmountImg2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></ImageView>
+
+    <TextView
+        android:id="@+id/productAmountTxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        tools:text="@string/product_amount" />
+
+    <EditText
+        android:id="@+id/productAmountEdittxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/product_amount_hint"
+        android:inputType="textPersonName"
+        android:nextFocusDown="@id/productLocationEdittxt" />
+
+    <ImageView
+        android:id="@+id/productLocationImg2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></ImageView>
+
+    <TextView
+        android:id="@+id/productLocationTxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        tools:text="@string/product_location" />
+
+    <EditText
+        android:id="@+id/productLocationEdittxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/product_location_hint"
+        android:inputType="textPersonName" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </View>
+
+    <Button
+        android:id="@+id/generateBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        android:text="Generate" />
+
+</LinearLayout>

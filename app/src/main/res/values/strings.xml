@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QR Code Generator</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="product_num">Product Number:</string>
+    <string name="product_num_hint">Enter Product Number</string>
+    <string name="product_amount">Amount:</string>
+    <string name="product_amount_hint">Enter Amount</string>
+    <string name="product_location">Product Location:</string>
+    <string name="product_location_hint">Enter Product Location</string>
+    <string name="product_lotnum">Lot#:</string>
+    <string name="lotnum_hint">Enter Lot #</string>
+</resources>
